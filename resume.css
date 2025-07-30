@@ -1,0 +1,54 @@
+ body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #3498db;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      color: #2980b9;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .info p {
+      margin: 5px 0;
+    }
+
+    .highlight {
+      color: #2ecc71;
+      font-weight: bold;
+    }
+
+    .btn-download {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #3498db;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .btn-download:hover {
+      background-color: #2980b9;
+    }
